@@ -17,12 +17,20 @@ $(document).ready(function() {
     };
   };
 
-  $('form#input').submit(function(event) {
+  $('form#input1').submit(function(event) {
     event.preventDefault();
     number1 = $("#number1").val();
     number2 = $("#number2").val();
     number3 = number1 / number2;
     math();
+  });
+
+  $('form#input2').submit(function(event) {
+    event.preventDefault();
+    var sentence = $("#sentence").val().replace('e,' , '-'),
+        newSentence = sentence.split();
+    console.log(newSentence);
 
   });
+
 });
