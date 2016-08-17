@@ -12,7 +12,7 @@ $(document).ready(function() {
     $('form#input2').fadeIn(1000);
   });
 
-  
+
   function math() {
     if (number1 < number2) {
       alert("This doesn't work");
@@ -20,7 +20,7 @@ $(document).ready(function() {
       for (i = 0; i <= number3; i++) {
         count = number2;
         result = count * i;
-        alert(result);
+        $('form#input1').append(result);
       };
     };
   };

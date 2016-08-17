@@ -8,15 +8,13 @@ body {
   padding: 200px;
 }
 
-#input1 {
-  padding-top: 20%;
-  margin-bottom: 20%;
-}
+
 
 #input1,
 #input2 {
   width: 60%;
   margin-left: 20%;
+  margin-bottom: 100px;
   display: none;
 }
 
